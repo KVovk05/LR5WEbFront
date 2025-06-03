@@ -6,7 +6,7 @@ const NavMenu = () => {
     <header>
         <nav>
           <Link to="/" id="href-logo">
-            <img src="../public/img/volunteerLogo.png" alt="logo" id="logo" />
+            <img src="/img/volunteerLogo.png" alt="logo" id="logo" />
           </Link>
           <ul>
             <li><Link to="/my" className="nav">My initiatives</Link></li>
@@ -16,7 +16,7 @@ const NavMenu = () => {
             {user ? (
           <li>
                 <Link to="/account" className="reg">
-                <img src="../public/img/user.png" alt="user" id="user-logo" />
+                <img src="/img/user.png" alt="user" id="user-logo" />
                 </Link>
           </li>
         ) : (
