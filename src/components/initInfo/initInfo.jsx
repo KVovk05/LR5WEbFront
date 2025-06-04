@@ -57,7 +57,7 @@ useEffect(() => {
             <p><strong>Volunteers needed:</strong> {initiative.volunteers}</p>
             <p><strong>Deadline to join:</strong> {initiative.maxdate}</p>
             <p><strong>Category:</strong> {initiative.category}</p>
-            <p> <StaticStarRating rating={initiative.averageRating}  /> {initiative.averageRating} out of 5</p>
+            <p> <StaticStarRating rating={initiative.averageRating}  /> {initiative.averageRating.toFixed(2)} out of 5</p>
           </div>
         </div>
         <div className="initiative-description">
